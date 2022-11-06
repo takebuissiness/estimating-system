@@ -1,0 +1,16 @@
+{
+    "number": [
+        {"name": 1, "price": 500},
+        {"name": 2, "price": 1000},
+        {"name": 3, "price": 1500}
+    ],
+    "distance": [
+        {"name": "5km", "price": 2000},
+        {"name": "10km", "price": 4000},
+        {"name": "15km", "price": 6000}
+    ],
+    "equipment": [
+        {"name": "wheel-car", "price": 1000},
+        {"name": "stretcher", "price": 2000}
+    ]
+}

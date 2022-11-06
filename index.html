@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAXの練習</title>
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    
+
+    <p>人数を選んでください</p>
+    <input type="radio" name="number" id="number-1" value="1" checked>
+    <label for="number-1">1人</label>
+    <input type="radio" name="number" id="number-2" value="2">
+    <label for="number-2">2人</label>
+    <input type="radio" name="number" id="number-3" value="3">
+    <label for="number-3">3人</label>
+
+    <p>距離を選択してください</p>
+    <input type="radio" name="distance" id="distance-5" value="5km" checked>
+    <label for="distance-5">5km</label>
+    <input type="radio" name="distance" id="distance-10" value="10km">
+    <label for="distance-10">10km</label>
+    <input type="radio" name="distance" id="distance-15" value="15km">
+    <label for="distance-15">15km</label>
+
+    <p>器具を選んでください（複数選択可）</p>
+    <input type="checkbox" name="wheel-car" id="wheel-car" value="wheel-car">
+    <label for="wheel-car">車椅子</label>
+    <input type="checkbox" name="stretcher" id="stretcher" value="stretcher">
+    <label for="stretcher">ストレッチャー</label>
+    
+    <div class="calculate">
+        <!-- <button class="calculate-button" id="calculate-button">計算する</button> -->
+        <div>
+            <span class="result">見積もり額：</span>
+            <!-- ここに結果のHTMLを出力 -->
+        </div>
+    </div>
+
+    <!-- main.js -->
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+</html>
